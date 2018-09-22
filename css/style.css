@@ -1,0 +1,216 @@
+#main-header{
+     color: #202020;
+     font-family: 'Montserrat', sans-serif;
+}
+
+#wrapper{
+ background:red;
+ overflow:hidden;
+ color: #202020;
+ height: 150px;
+}
+
+#c1{
+     position: absolute;
+     left: 30px;
+     background:purple;
+     height: 150px;
+     float:left;
+     font-family: Montserrat;
+     font-size: 45px;
+     font-weight: 900;
+     letter-spacing: 5px;
+     line-height: 44px;
+
+}
+
+#c1 p {
+     text-align: center;
+}
+
+#c2{
+     position: absolute;
+     right: 30px;
+     height: 150px;
+     background:green;
+     float:right;
+}
+
+#navbar{
+     padding-top: 50px;
+     padding-left: 10px;
+     color:#fff;
+     right: 100px;
+}
+
+#navbar ul{
+     list-style: none;
+}
+
+#navbar li{
+     padding-left: 20px;
+     display:inline;
+}
+
+#navbar a{
+     color:white;
+     text-decoration: none;
+     color: #202020;
+     font-family: Montserrat;
+     font-size: 20px;
+     letter-spacing: 1px;
+     line-height: 24px;
+     padding-right:15px;
+}
+
+#wrapper2{
+     position: relative;
+     background:pink;
+     overflow:hidden;
+     color: #202020;
+     font-family: Montserrat;
+     font-size: 45px;
+     font-weight: 900;
+     letter-spacing: 5px;
+     line-height: 44px;
+     height: 600px;
+}
+
+#tagline{
+     position: relative;
+     left: 50px;
+     background: green;
+     height: 50px;
+     width: 450px;
+     color: #202020;
+     font-family: Montserrat;
+     font-size: 32px;
+     font-weight: normal;
+     letter-spacing: 1px;
+     line-height: 48px;
+}
+#schoolCont {
+     position: relative;
+     left: 50px;
+     height: 50px;
+     background:orange;
+     width: 450px;
+     color: #202020;
+     font-family: Montserrat;
+     font-size: 16px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     line-height: 24px;
+}
+
+#majorCont{
+     position: relative;
+     left: 50px;
+     height: 50px;
+     background:orange;
+     width: 450px;
+     color: #202020;
+     font-family: Montserrat;
+     font-size: 16px;
+     font-weight: normal;
+     letter-spacing: 1px;
+     line-height: 24px;
+}
+
+#blurbCont{
+     position: relative;
+     left: 50px;
+     height: 150px;
+     background:orange;
+     width: 450px;
+     color: #202020;
+     font-family: Merriweather;
+     font-size: 16px;
+     font-weight: normal;
+     letter-spacing: 1px;
+     line-height: 24px;
+}
+
+#pic {
+     position: absolute;
+     float: right;
+     top: 20px;
+     right: 90px;
+}
+
+#wrapper3{
+     position: relative;
+     background:yellow;
+     overflow:hidden;
+     color: #202020;
+     font-family: Montserrat;
+     font-size: 45px;
+     font-weight: 900;
+     letter-spacing: 5px;
+     line-height: 44px;
+     height: 600px;
+}
+
+#bulletCont {
+     height: 150px;
+     background:purple;
+     width: 400px;
+     color: #202020;
+     font-family: Montserrat;
+     font-size: 16px;
+     font-weight: normal;
+     letter-spacing: 1px;
+     line-height: 24px;
+     list-style: none;
+}
+
+#wrapper4{
+     padding-left: 20px;
+     position: relative;
+     background:#D0BCFE;
+     overflow:hidden;
+     color: #202020;
+     font-family: Montserrat;
+     font-size: 45px;
+     font-weight: 900;
+     letter-spacing: 5px;
+     line-height: 44px;
+     height: 600px;
+}
+
+
+#languages {
+     float: left;
+     font-family: Montserrat;
+     font-size: 25px;
+     width: 400px;
+     background: red;
+     text-align: center;
+}
+
+#tools {
+     float: left;
+     font-family: Montserrat;
+     font-size: 25px;
+     width: 400px;
+     background: blue;
+     text-align: center;
+}
+
+#projects {
+     float: left;
+     font-family: Montserrat;
+     font-size: 25px;
+     width: 400px;
+     background: green;
+     text-align: center;
+}
+
+#main-footer{
+     font-family: Montserrat;
+     background: #333;
+     color:#fff;
+     text-align: center;
+     padding:20px;
+     margin-top:40px;
+}
