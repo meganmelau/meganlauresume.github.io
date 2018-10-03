@@ -4,7 +4,6 @@
 }
 
 #wrapper{
- background:red;
  overflow:hidden;
  color: #202020;
  height: 150px;
@@ -13,7 +12,6 @@
 #c1{
      position: absolute;
      left: 30px;
-     background:purple;
      height: 150px;
      float:left;
      font-family: Montserrat;
@@ -32,7 +30,7 @@
      position: absolute;
      right: 30px;
      height: 150px;
-     background:green;
+
      float:right;
 }
 
@@ -63,9 +61,8 @@
      padding-right:15px;
 }
 
-#wrapper2{
+.wrapper2{
      position: relative;
-     background:pink;
      overflow:hidden;
      color: #202020;
      font-family: Montserrat;
@@ -78,10 +75,9 @@
 
 #tagline{
      position: relative;
-     left: 50px;
-     background: green;
+     left: 150px;
      height: 50px;
-     width: 450px;
+     width: 600px;
      color: #202020;
      font-family: Montserrat;
      font-size: 32px;
@@ -91,23 +87,21 @@
 }
 #schoolCont {
      position: relative;
-     left: 50px;
+     left: 150px;
      height: 50px;
-     background:orange;
      width: 450px;
      color: #202020;
      font-family: Montserrat;
      font-size: 16px;
-     font-weight: 500;
+     font-weight: bold;
      letter-spacing: 1px;
      line-height: 24px;
 }
 
 #majorCont{
      position: relative;
-     left: 50px;
+     left: 150px;
      height: 50px;
-     background:orange;
      width: 450px;
      color: #202020;
      font-family: Montserrat;
@@ -119,9 +113,8 @@
 
 #blurbCont{
      position: relative;
-     left: 50px;
+     left: 150px;
      height: 150px;
-     background:orange;
      width: 450px;
      color: #202020;
      font-family: Merriweather;
@@ -129,6 +122,51 @@
      font-weight: normal;
      letter-spacing: 1px;
      line-height: 24px;
+}
+
+.button button{
+     position: relative;
+     left: 150px;
+     background-color: #B99458; 
+     font-family: Montserrat;
+     border: none;
+     color: white;
+     padding: 20px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+}
+
+#resume {
+      display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+     text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+ color: white;
+}
+
+/* mouse over link */
+a:hover {
+ color: white;
+}
+
+/* selected link */
+a:active {
+ color: white;
 }
 
 #pic {
@@ -140,7 +178,6 @@
 
 #wrapper3{
      position: relative;
-     background:yellow;
      overflow:hidden;
      color: #202020;
      font-family: Montserrat;
@@ -148,7 +185,7 @@
      font-weight: 900;
      letter-spacing: 5px;
      line-height: 44px;
-     height: 600px;
+     height: 520px;
 }
 
 #bulletCont {
@@ -178,32 +215,51 @@
      height: 600px;
 }
 
+#tjx {
+      position: relative;
+     left: 150px;
+     width: 500px;
+     float: left;
+     font-family: Montserrat;
+     font-size: 25px;
+     width: 400px;
+     text-align: center;
+}
 
 #languages {
+     position: relative;
+     left: 150px;
      float: left;
      font-family: Montserrat;
      font-size: 25px;
      width: 400px;
-     background: red;
      text-align: center;
 }
-
+#languages ul{
+     list-style: none;
+}
 #tools {
+     position: relative;
      float: left;
      font-family: Montserrat;
      font-size: 25px;
      width: 400px;
-     background: blue;
      text-align: center;
+     background-color: red;
 }
-
-#projects {
+#tools ul{
+     list-style: none;
+}
+#proj {
      float: left;
      font-family: Montserrat;
      font-size: 25px;
      width: 400px;
      background: green;
      text-align: center;
+}
+#proj ul{
+     list-style: none;
 }
 
 #main-footer{
