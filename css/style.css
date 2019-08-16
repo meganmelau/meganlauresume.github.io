@@ -239,6 +239,7 @@ a:active {
 #languages ul{
      list-style: none;
 }
+/*
 #tools {
      position: relative;
      float: left;
@@ -251,6 +252,8 @@ a:active {
 #tools ul{
      list-style: none;
 }
+*/
+
 #proj {
      float: left;
      font-family: Montserrat;
