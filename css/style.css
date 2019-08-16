@@ -271,3 +271,39 @@ a:active {
      padding:20px;
      margin-top:40px;
 }
+
+thead  {
+     font-family: Montserrat;
+     font-size: 25px;
+  background-color: #5edfff;
+  border-top: 20px dotted red;
+}
+
+td{
+     font-family: Montserrat;
+     font-size: 25px;
+ background-color: #4CAF50;
+ width: 10%;
+ border-right: solid;
+ border-top: 2px dotted grey;
+}
+
+#skills {
+     font-family: Montserrat;
+     font-size: 25px;
+  padding-left: 5%;
+  background-color: #b2fcff;
+}
+
+#tools {
+     font-family: Montserrat;
+     font-size: 25px;
+  background-color: #b2fcff;
+}
+
+#projects {
+     font-family: Montserrat;
+     font-size: 25px;
+  background-color: #b2fcff;
+  border-right: none;
+}
